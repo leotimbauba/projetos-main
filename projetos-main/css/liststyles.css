@@ -1,0 +1,67 @@
+/*Body*/
+body{
+  opacity: 0.9;
+  background-image: url('../imagem/OptomLog-Recuperado.png');
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+fieldset{
+  background-color: #fff;
+  background-attachment: fixed;
+  max-width: 680px;
+  margin: auto;
+}
+
+/*Logo do Cradastro do lado direito*/
+.logolist{
+  border: 5px;
+}
+/*Linha do fildset*/
+.linhafild{
+    border:4px solid; 
+    border-radius: 30px;
+    color: #0e65af;
+}
+
+/*H1 Prescrição*/
+h1{
+    color: #0e65af;
+    float: right;
+    font-style: italic;
+}
+
+/*CSS TIPO DE LENTES*/
+
+table, th, td {
+  border-collapse: collapse;
+  color: #0e65af;
+}
+
+/*Data mais assinatura*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea';
+  gap: 2px;
+  margin-top: 10px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+/*Botao Imprimir*/
+
+.botao{
+  background-color: #0e65af; 
+  color: white; 
+  border-radius: 10px;
+  border: none; 
+}
+
+/*Marca d'agua*/

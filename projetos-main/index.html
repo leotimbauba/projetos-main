@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="imagem/transferir.jpg" type="image/x-icon">
+  <title>Prisquição Optometríca</title>
+</head>
+
+<body id="marca">
+  <fieldset class="container linhafild">
+    <legend class="logo" style="width: 10%;"><img src="imagem/transferir.jpg" alt=""></legend><br>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="">Prescrição <br> Optometríca </h1>
+      </div>
+      <form class="col-sm-12">
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname" size="40"><br>
+        <label for="lname">Idade:</label>
+        <input type="text" id="lname" name="lname"><br>
+      </form>
+    </div>
+    <table style="width:100%">
+      <tr style="width:16%">
+        <th style="width:5%">Longe</th>
+        <th style="width:16%">Esf.</th>
+        <th style="width:16%">Cll</th>
+        <th style="width:16%">Eixo</th>
+        <th style="width:16%">DNP</th>
+        <th style="width:16%">A/V</th>
+      </tr>
+      <tr>
+        <td>OD</td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+      </tr>
+      <tr>
+        <td>OE</td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+        <td><input style="width:95%" type="text"></td>
+      </tr>
+      <tr>
+        <td>Adição</td>
+        <td><input style="width:95%" type="number"></td>
+      </tr>
+    </table>
+    <h4>Tipo de Lente:</br>Material</h4>
+    <table class="tipo" style="width:100%">
+      <tr>
+        <td><input type="checkbox" /> Monovisao.</td>
+        <td><input type="checkbox" /> Resina</td>
+        <td><input type="checkbox" /> Fotossensível</td>
+        <td><input type="checkbox" /> Biovis</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" /> Bifocal</td>
+        <td><input type="checkbox" /> Trivex</td>
+        <td><input type="checkbox" /> Ante-reflexo</td>
+        <td><input type="checkbox" /> Kriptok</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" /> Multifocal</td>
+        <td><input type="checkbox" /> Polic</td>
+        <td><input type="checkbox" /> Incolor</td>
+        <td><input type="checkbox" /> Ultex</td>
+      </tr>
+    </table>
+    </br>
+
+    <h4>OBS:</h4>
+    <textarea rows="4" cols="40">
+        </textarea></br>
+
+    <div class="grid-container">
+      <label class="item1">Data:
+        <input type="date">
+      </label>
+      <div class="item2">
+        <hr>
+        Optometrista
+      </div>
+    </div>
+
+    <hr class="hr">
+
+    <p>A profição de optometrista está prevista artigo 3⁰ do Decreto 20.931/32 e o
+      conteúdo das atividades está escito na portaria n⁰ 397, de 09..10.2012
+      CBO - Classificação Brasileira de Ocupações, Editada pelo ministério do trabalho e emprego. <br><br>
+      <strong>Opto. PEDRO JR fone: (81) 99288-1897 ZAP</strong>
+    </p>
+    <button class="botao" onclick="imprimir();">Imprimir</button>
+    <script>
+      function imprimir() {
+        window.print();
+      }
+    </script>
+  </fieldset>
+
+</body>
+
+</html>

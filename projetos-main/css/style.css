@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/*Body*/
+body{
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+  background-image: url('../imagem/logodeteste5.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 760px;
+}
+form{
+  color: #0e65af;
+}
+
+input{
+  border: 0.5px solid #d6d6d269;
+}
+
+input:hover{
+  color: rgb(170, 175, 175);
+}
+fieldset{
+  background-color: #fff;
+    padding: 20px;
+    margin: auto;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.733);
+}
+textarea{
+  border: 0.5px solid #d6d6d269;
+}
+
+/*Logo do Cradastro do lado direito*/
+img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 30px;
+}
+
+/*Linha do fildset*/
+.linhafild{
+    border: 4px solid #0e65af; 
+    border-radius: 30px;
+    max-width: 900px;
+}
+
+/*H1 Prescrição*/
+h1{
+    margin: -80px 10px 0 0;
+    padding: 0;
+    color: #0e65af;
+    float: right;
+    font-style: italic;
+}
+h4{
+  margin: 2px 0;
+  color: #0e65af;
+}
+p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #0e65af;
+}
+
+/*CSS TIPO DE LENTES*/
+
+table, th, td{
+  margin: 10px 0 10px 0;
+  border-collapse: collapse;
+  color: #0e65af;
+}
+
+/*Data mais assinatura*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea';
+  gap: 2px;
+  margin-top: 10px;
+  color: #0e65af;
+}
+
+.grid-container > div{
+  text-align: center;
+  padding: 8px 0 0 0;
+  font-size: 18px;
+  color: #0e65af;
+}
+
+/*Botao Imprimir*/
+
+.botao{
+  background-color: #0e65af; 
+  color: white; 
+  border-radius: 10px;
+  border: none;
+  margin: 10px; 
+}
+
+strong{
+  background-color: #0e65af;
+  color: white; 
+  margin: 3px; 
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+  body{
+    background-size: 375px;
+    background-position-x: 15px;
+    background-position-y: 211px;
+  }
+}

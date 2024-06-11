@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="css/liststyle.css">
+  <link rel="shortcut icon" href="imagem/frente.png" type="image/x-icon">
+  <title>Assistência Técnica de Celulares </title>
+</head>
+
+<body id="marca">
+  <fieldset class="container linhafild">
+    <legend class="logolist" style="width: 5px;"><img style="width: 400px;" height="160px" src="imagem/frente.png" alt=""></legend><br>
+    <div class="row">
+      
+      <form class="col-sm-12">
+        <label for="fname">Nome:......................</label>
+        <input type="text" id="fname" name="fname" size="40"><br>
+        <label for="lname">RG/CPF:....................</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">Marca/Modelo:...........</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">Senha:......................</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">GB:..........................</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">IMEI:........................</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">Valor do serviços:.......</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label class="item1">Data/Entrada:............
+          <input type="date">
+        </label>
+      </form>
+    </div>
+    <table style="width:100%">
+      <tr style="width:16%">
+        <th style="width:5%">Lista</th>
+        <th style="width:10%">Tela/Display</th>
+        <th style="width:10%">Touch/Screen</th>
+        <th style="width:10%">Botão L/D</th>
+        <th style="width:10%">Sensor/Prox</th>
+        <th style="width:10%">Bluyetooth</th>
+        <th style="width:10%">Wi-Fi</th>
+        <th style="width:10%">Ligando</th>
+      </tr>
+      <tr>
+        <td>Sim</td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Não</td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+        <td><input style="width:19%" type="checkbox"></td>
+      </tr>
+ 1 
+    </table>
+    <h4>Assinale com "X"</br>os locais com posiveis avarias</h4>
+    <table class="tipo" style="width:100%">
+      <tr>
+        <td><input type="checkbox" /> Lado/A</td>
+        <td><input type="checkbox" /> Lado/B</td>
+        <td><input type="checkbox" /> Frente</td>
+        <td><input type="checkbox" /> Traseira</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" /> Superior</td>
+        <td><input type="checkbox" /> Inferior</td>
+        <td><input type="checkbox" /> Lente/Camara</td>
+        <td><input type="checkbox" /> Tela/Display</td>
+      </tr>
+      
+    </table>
+    </br>
+
+    <h4>Problemas Relatados:</h4>
+    <textarea rows="6" cols="100">
+        </textarea></br>
+    <hr class="hr">
+    <h4>Serviços Executado:</h4>
+    <textarea rows="6" cols="100">
+        </textarea></br>
+      
+    <h4>1) REPARO REALIZADOS SÃO GARANTIDOS POR: <td><input style="width:10%" type="text"></td>Dias</h4>
+    <p>2) Os telefones reparados que forem retirados em 90 dias. após a aprovação do orçamento passarão a ser propriedade da loja. que podera vende-los para ressarcir-se dos custos incorridos.</p>
+     <p>3) Ao deixar seu celular para reparo, retirar seu chip e cartyão de memoria. Nos não se reponsabilizamos por chip e catão de memoria.</p>
+     <h4>A GARANTIA DA PEÇA TROCADANÃO GARANTE MAU USO. QUEDAS, TRICOS, APERTOS, UMIDADE, OU ABERTO POR TERCEIROS.</h4>
+     <h5 style="text-align: center;">cliente de acordo com as condições acima</h5><br>
+
+     <label class="item1">Data/Retirada:............
+      <input type="date"> Assinatura do cliente:
+      <input style="width:320px" type="text"></td>
+    </label><br>
+    
+    <button class="botao" onclick="imprimir();">Imprimir</button>
+    <script>
+      function imprimir() {
+        window.print();
+      }
+    </script>
+  </fieldset>
+
+</body>
+
+</html>
